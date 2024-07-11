@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html"><img src="materiale/logo.png" width="200" height="auto" alt="logo"></a>
+            </div>
+            <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    &#9776;
+                </div>
+                <ul id="nav-links">
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="menu.html"><b>MENU</b></a></li>
+                    <li><a href="eventi.html"><b>EVENTI</b></a></li>
+                    <li><a href="contatti.html"><b>CONTATTI</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="spot">
+            <div class="spot-text">
+                <h2>I NOSTRI CONTATTI</h2>
+                <h3>Panoramica e come raggiungerci</h3>
+                <p>CHIAMA ORA</p>
+            </div>
+            <div class="spaghetti">
+                <img src="materiale/ModificateHome/piatto-spaghetti-home.png" alt="piatto di spaghetti">
+            </div>
+        </div>
+        <div class="small small-img0"></div>
+        <div class="small small-img1"></div>
+        <div class="small small-img2"></div>
+        <div class="small small-img3"></div>
+        <div class="small small-img4"></div>
+    </header>
+
+    <main>
+        <div class="select">
+            <h2>LOCATION</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eligendi deleniti quaerat fugiat nemo,
+                fugit ipsa quibusdam aut. Placeat, ratione eum. Eum assumenda ipsa adipisci aut. Ullam impedit
+                necessitatibus quis.</p>
+        </div>
+        <section>
+            <div class="google-maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11375.182613998059!2d11.353450551342789!3d44.539816481606344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd3105e11c749%3A0xf3e96b3fd900a069!2sNuovo%20Cescot%20Emilia%20Romagna!5e0!3m2!1sit!2sit!4v1720027619218!5m2!1sit!2sit"
+                    width="1500" height="900" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo-footer">
+                <a href="index.html"><img src="materiale/logo-giallo.png" alt="logo fine pagina"></a>
+                <p>Siamo in via Don Bedetti, in zona Corticella, dove la città di Bologna sfuma nella
+                    periferia. Questo è il regno del nostro chef del maître, amici e soci che nel 2006 hanno deciso
+                    di aprire un ristorante. Cosa ordinare? C'è solo l'imbarazzo della scelta!!</p>
+            </div>
+            <div class="info-footer">
+                <div class="contact-info">
+                    <img src="materiale/1x/Asset 1.png" width="20" alt="maps">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Via+Don+Bedetti,+26,+40129+Bologna"
+                        target="_blank">Via Don Bedetti, 26, 40129, Bologna</a>
+                </div>
+                <div class="contact-info">
+                    <img src="materiale/1x/Asset 2.png" width="15" alt="mail info">
+                    <a href="mailto:info@foodforyou.com">info@foodforyou.com</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="materiale/Instagram.png" alt="social instagram"></a>
+                    <a href="#"><img src="materiale/Facebook.png" alt="social facebook"></a>
+                    <a href="#"><img src="materiale/Twitter.png" alt="social twitter"></a>
+                    <a href="#"><img src="materiale/WhatsApp.png" alt="social whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">© Simone Falcone Cescot - Front End Developer 2024. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var x = document.getElementById("nav-links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

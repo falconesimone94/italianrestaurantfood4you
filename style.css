@@ -1,0 +1,479 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fredericka the Great", serif;
+}
+
+/* start header */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header {
+    background-image: url('materiale/sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.375rem;
+    /* 22px */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+}
+
+.small {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.small-img0 {
+    top: 15%;
+    left: 5%;
+    width: 85px;
+    height: 70px;
+    background-image: url('materiale/ModificateHome/foglia1.png');
+}
+
+.small-img1 {
+    top: 85%;
+    left: 90%;
+    width: 85px;
+    height: 80px;
+    background-image: url('materiale/ModificateHome/foglia2.png');
+}
+
+.small-img2 {
+    top: 75%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background-image: url('materiale/ModificateHome/pomodoro.png');
+}
+
+.small-img3 {
+    top: 25%;
+    left: 60%;
+    width: 80px;
+    height: 80px;
+    background-image: url('materiale/ModificateHome/strichetto.png');
+}
+
+.small-img4 {
+    top: 90%;
+    left: -5%;
+    width: 140px;
+    height: 170px;
+    background-image: url('materiale/ModificateHome/Spaghetti.png');
+}
+
+.spot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.spaghetti img {
+    max-width: 100%;
+    height: auto;
+    width: 450px;
+}
+
+.spot-text {
+    text-align: center;
+    color: black;
+    padding: 45px;
+    line-height: 55px;
+}
+
+.spot h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    /* 20px */
+}
+
+.spot h2 {
+    font-family: "Fredericka the Great", serif;
+    font-size: 3.125rem;
+    /* 50px */
+    font-weight: 400;
+}
+
+.spot h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    /* 20px */
+}
+
+.spot p {
+    font-family: "Fredericka the Great", serif;
+    font-size: 1.875rem;
+    /* 30px */
+    margin-bottom: 25px;
+}
+
+.order {
+    width: 130px;
+    height: 45px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    /* 20px */
+    font-family: "Montserrat", sans-serif;
+}
+
+/* start main */
+.select {
+    padding-top: 25px;
+}
+
+.select h2 {
+    font-size: 2.5rem;
+    /* 40px */
+    margin-bottom: 25px;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+}
+
+.select p {
+    font-size: 1.25rem;
+    /* 20px */
+    font-family: "Montserrat", sans-serif;
+}
+
+.select {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.select2 {
+    margin-top: 35px;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.select2 h2 {
+    font-size: 2.5rem;
+    /* 40px */
+    font-weight: 400;
+}
+
+.select2 p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.food-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.primi-piatti {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(236, 198, 144, 0.905);
+    font-family: "Montserrat", sans-serif;
+}
+
+.position-eat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.eat1,
+.eat2,
+.eat3 {
+    color: white;
+    font-size: 1.375rem;
+    /* 22px */
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    margin: 15px;
+}
+
+.position-eat div {
+    width: 100%;
+    max-width: 600px;
+}
+
+.eat1 {
+    background-image: url('materiale/ModificateHome/piatto1.jpg');
+    height: 375px;
+}
+
+.eat2 {
+    background-image: url('materiale/ModificateHome/piatto2.jpg');
+    height: 180px;
+}
+
+.eat3 {
+    background-image: url('materiale/ModificateHome/piatto3.jpg');
+    height: 180px;
+}
+
+/* start footer */
+footer {
+    background-image: url('materiale/ModificateHome/BG-footer.jpg');
+    background-size: cover;
+    padding: 40px 0;
+    color: white;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+}
+
+.logo-footer img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.logo-footer p {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.75rem;
+    /* 12px */
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps>iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hamburger menu (header) */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 1024px) {
+
+    /* visualizzazione su tablet */
+    .spot {
+        flex-direction: column;
+    }
+
+    .small-img2,
+    .small-img3 {
+        display: none;
+    }
+
+    .primi-piatti div {
+        max-width: 80%;
+    }
+
+    .eat1,
+    .eat2,
+    .eat3 {
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* visualizzazione su smartphone */
+    .spot {
+        display: block;
+    }
+
+    .small-img1,
+    .small-img2,
+    .small-img3,
+    .small-img4 {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .spaghetti {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(236, 198, 144, 0.905);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 0;
+        z-index: 999;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 1.25rem;
+        /* 20px */
+        color: black;
+    }
+
+    .primi-piatti {
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 45px;
+    }
+
+    .primi-piatti div {
+        max-width: 70%;
+        margin-bottom: 14px;
+    }
+
+    .primi-piatti img {
+        max-width: 50%;
+    }
+
+    .eat1,
+    .eat2,
+    .eat3 {
+        display: block;
+        max-height: 150px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-footer img {
+        max-width: 150px;
+    }
+
+    .logo-footer p {
+        text-align: center;
+        font-size: 0.75rem;
+        /* 12px */
+        margin-bottom: 15px;
+    }
+
+    .info-footer {
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-info img {
+        display: none;
+    }
+
+    .social-icons {
+        gap: 5px;
+        margin-top: 15px;
+    }
+
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .copyright {
+        font-size: 0.625rem;
+        /* 10px */
+        margin-top: 15px;
+    }
+}
